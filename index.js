@@ -1,4 +1,5 @@
 const { ApolloServer, gql } = require("apollo-server");
+const db = require("./db");
 
 // Construct a schema, using GraphQL schema language
 const typeDefs = gql`
@@ -37,46 +38,6 @@ const typeDefs = gql`
     ): SearchResult!
   }
 `;
-
-const db = {
-  searchIndex: {
-    iPhone: [1, 2],
-    Samsung: [3, 4],
-    Nokia: [5]
-  },
-  products: [
-    {
-      id: 1,
-      name: "iPhone 9",
-      description: "coolio",
-      price: 10
-    },
-    {
-      id: 2,
-      name: "iPhone 10",
-      description: "julio",
-      price: 10
-    },
-    {
-      id: 3,
-      name: "Samsung S10",
-      description: "junior",
-      price: 10
-    },
-    {
-      id: 4,
-      name: "Samsung S9",
-      description: "cool kid",
-      price: 10
-    },
-    {
-      id: 5,
-      name: "Nokia 9",
-      description: "grandpa",
-      price: 10
-    }
-  ]
-};
 
 // Provide resolver functions for your schema fields
 const resolvers = {
