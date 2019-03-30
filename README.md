@@ -18,3 +18,7 @@ yarn start
 
 Implement the search query resolver to return search result products,
 by reading data from the mock `db.js` file.
+
+## Resource
+
+Here is a short [intro to GraphQL](https://gist.github.com/colmarius/4e097c07acb41f8a56319a01fa7ba4f1) with links to nice resources.
