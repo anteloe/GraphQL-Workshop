@@ -1,5 +1,7 @@
 ## GraphQL Workshop
 
+Hands-on with GraphQL. Alternative to cloning the repo, there is a Codesandbox link where you can work in the browser: https://tinyurl.com/socrates-gql
+
 Setup dependencies:
 
 ```
