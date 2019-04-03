@@ -1,6 +1,15 @@
 ## GraphQL Workshop
 
-Hands-on with GraphQL. Alternative to cloning the repo, there is a Codesandbox link where you can work in the browser: https://tinyurl.com/socrates-gql
+The goal is to write the resolvers for "Query search" and "SearchResults products" that will simulate data retrieval from the mock `db.js` data.
+
+The `search` query resolver, should take a `query` argument and lookup product ids from the mock `db.js` data.
+The `products` search results resolver, should take an array ids and by using `db.js` should resolve them to a list of products.
+
+In the `solution` branch, there is an example on how this can be done.
+
+## Setup
+
+Alternative to cloning the repo, there is a Codesandbox link where you can work in the browser: https://tinyurl.com/socrates-gql
 
 Setup dependencies:
 
